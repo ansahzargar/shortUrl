@@ -5,7 +5,8 @@
   "author": "Shukran",
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha --timeout 10000"
+    "test": "node_modules/.bin/mocha -w --timeout 10000"
+
   },
   "dependencies": {
     "chai": "^4.2.0",
