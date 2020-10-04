@@ -17,7 +17,7 @@ let createUrl = async function (req, res) {
             });
           } else {
             const shortUrl = baseUrl + "/" + urlCode;
-            await UrlModel.create(
+             UrlModel.create(
               {
                 url: originalUrl,
                 urlHash: urlCode,
